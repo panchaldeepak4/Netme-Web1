@@ -1,0 +1,385 @@
+@import url("https://fonts.google.com/specimen/Darker+Grotesque?preview.text=Boost%20your%20business%20with%20NETME!&preview.text_type=custom&query=Grotesque");
+
+/* body css  */
+.main {
+  /* background: red; */
+  background: url("https://github-production-user-asset-6210df.s3.amazonaws.com/130741453/251705491-7bb67ddc-1daf-425c-bc55-db9e02cbf60d.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230707T095338Z&X-Amz-Expires=300&X-Amz-Signature=595c95a5c4f930ec4abc0dd14b2c2e215462dd9f3832d18f265d0d102ab15ffe&X-Amz-SignedHeaders=host&actor_id=130741453&key_id=0&repo_id=636692199");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 00px 100%;
+
+  padding: 0;
+  margin: 0;
+}
+.body {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  /* background: #F2F2F2; */
+  /* background: red; */
+}
+.main_text {
+  /* background: green; */
+  width: 40%;
+  margin-left: 6em;
+  margin-top: 3em;
+  font-size: 30px;
+  font-weight: 750;
+  font-family: "Darker Grotesque", sans-serif;
+  color: #333333;
+}
+.main_text2 {
+  margin-top: -0.75em;
+}
+.sub_text1,
+.sub_text2 {
+  font-size: 0.5em;
+  color: #acacac;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.sub_text2 {
+  margin-top: -0.5em;
+}
+.btn {
+  display: flex;
+  margin-top: 1em;
+}
+.btn1 {
+  background: #333333;
+  color: white;
+  padding: 1em 1.2em;
+  font-size: 0.35em;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+.btn2 {
+  color: #333333;
+  padding: 1em 1.2em;
+  font-size: 0.35em;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 800;
+  margin-left: 2em;
+  border-radius: 5px;
+  border: 1px solid #333333;
+}
+.body_pic {
+  /* background: blue; */
+  width: 45%;
+  height: 80vh;
+  margin-top: 2em;
+  display: flex;
+}
+#img1 {
+  height: 100%;
+  width: 40%;
+  margin-left: 6%;
+}
+#img2 {
+  height: 100%;
+  width: 40%;
+}
+@media screen and (max-width: 1760px) {
+  .menu a {
+    margin-left: 1.25em;
+    margin-right: 1.75em;
+    font-weight: 600;
+  }
+  .menu > button {
+    padding: 1em 1.2em;
+    margin-right: 10em;
+    font-size: 0.6em;
+    font-weight: 550;
+  }
+  .body_pic > img {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .menu a {
+    margin-left: 1.25em;
+    margin-right: 1.75em;
+    font-weight: 600;
+  }
+  .menu > button {
+    padding: 1em 1.2em;
+    margin-right: 10em;
+    font-size: 0.6em;
+    font-weight: 550;
+  }
+  .body_pic > img {
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .menu a {
+    margin-left: 1.25em;
+    margin-right: 1.75em;
+    font-weight: 600;
+  }
+  .menu > button {
+    padding: 1em 1.2em;
+    margin-right: 10em;
+    font-size: 0.6em;
+    font-weight: 550;
+  }
+  .body_pic {
+    /* background: blue; */
+    width: 45%;
+    height: 70vh;
+    margin-top: 2em;
+    display: flex;
+  }
+  #img1 {
+    height: 90%;
+    width: 40%;
+  }
+  #img2 {
+    height: 90%;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .menu a {
+    margin-left: 1.25em;
+    margin-right: 1.75em;
+    font-weight: 600;
+  }
+  .menu > button {
+    padding: 1em 1.2em;
+    margin-right: 10em;
+    font-size: 0.6em;
+    font-weight: 550;
+  }
+  .body_pic {
+    /* background: blue; */
+    width: 45%;
+    height: 60vh;
+    margin-top: 2em;
+    display: flex;
+  }
+  #img1 {
+    height: 90%;
+    width: 40%;
+  }
+  #img2 {
+    height: 90%;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .pic {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  .pic img {
+    height: 2.5em;
+  }
+  .menu a {
+    margin-left: 1em;
+    margin-right: 1.5em;
+    font-weight: 550;
+  }
+  .menu > button {
+    padding: 0.9em 1em;
+    margin-right: 8em;
+    font-size: 0.5em;
+    font-weight: 500;
+  }
+  .body_pic {
+    /* background: blue; */
+    width: 45%;
+    height: 55vh;
+    margin-top: 2em;
+    display: flex;
+  }
+  #img1 {
+    height: 90%;
+    width: 40%;
+  }
+  #img2 {
+    height: 90%;
+    width: 40%;
+  }
+  .main_text {
+    /* background: green; */
+    width: 40%;
+    margin-left: 3em;
+    margin-top: 3em;
+    font-size: 25px;
+  }
+  .sub_text1,
+  .sub_text2 {
+    font-size: 0.45em;
+  }
+  .btn1 {
+    padding: 0.95em 1em;
+    font-size: 0.3em;
+    font-weight: 600;
+  }
+  .btn2 {
+    padding: 0.95em 1em;
+    font-size: 0.3em;
+    font-weight: 700;
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width: 880px) {
+  .body_pic > img {
+    height: 40%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pic {
+    height: 1.45em;
+    width: 1.45em;
+  }
+  .pic img {
+    height: 2.4em;
+  }
+  .menu a {
+    margin-left: 0.55em;
+    margin-right: 1.5em;
+    font-size: 0.75em;
+    font-weight: 550;
+  }
+  .menu > button {
+    padding: 0.8em 0.9em;
+    margin-right: 7em;
+    font-size: 0.45em;
+    font-weight: 500;
+  }
+  .body_pic {
+    /* background: blue; */
+    width: 45%;
+    height: 40vh;
+    margin-top: 2em;
+    display: flex;
+  }
+  .main_text {
+    /* background: green; */
+    width: 40%;
+    margin-left: 3em;
+    margin-top: 3em;
+    font-size: 20px;
+  }
+  .sub_text1,
+  .sub_text2 {
+    font-size: 0.43em;
+  }
+  .btn1 {
+    padding: 0.85em 0.9em;
+    font-size: 0.3em;
+    font-weight: 600;
+  }
+  .btn2 {
+    padding: 0.85em 0.9em;
+    font-size: 0.3em;
+    font-weight: 700;
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pic {
+    height: 1.4em;
+    width: 1.4em;
+  }
+  .pic img {
+    height: 2.2em;
+  }
+  .menu a {
+    margin-left: 0.35em;
+    margin-right: 1.5em;
+    font-size: 0.65em;
+    font-weight: 500;
+  }
+  .menu > button {
+    padding: 0.7em 0.8em;
+    margin-right: 6em;
+    font-size: 0.4em;
+    font-weight: 500;
+  }
+  .body_pic {
+    /* background: blue; */
+    width: 45%;
+    height: 30vh;
+    margin-top: 2em;
+    display: flex;
+  }
+  .main_text {
+    /* background: green; */
+    width: 40%;
+    margin-left: 3em;
+    margin-top: 3em;
+    font-size: 17px;
+  }
+  .sub_text1,
+  .sub_text2 {
+    font-size: 0.4em;
+  }
+  .btn1 {
+    padding: 0.75em 0.85em;
+    font-size: 0.3em;
+    font-weight: 600;
+  }
+  .btn2 {
+    padding: 0.75em 0.85em;
+    font-size: 0.3em;
+    font-weight: 700;
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width: 460px) {
+  .pic {
+    height: 1.3em;
+    width: 1.3em;
+  }
+  .pic img {
+    height: 2em;
+  }
+  .menu a {
+    margin-left: 0.35em;
+    margin-right: 1.25em;
+    font-size: 0.5em;
+    font-weight: 500;
+  }
+  .menu > button {
+    padding: 0.6em 0.7em;
+    margin-right: 3em;
+    font-size: 0.35em;
+    font-weight: 400;
+  }
+  .body_pic {
+    /* background: blue; */
+    width: 45%;
+    height: 22vh;
+    margin-top: 2em;
+    display: flex;
+  }
+  .main_text {
+    /* background: green; */
+    width: 40%;
+    margin-left: 2.5em;
+    margin-top: 3em;
+    font-size: 13px;
+  }
+  .sub_text1,
+  .sub_text2 {
+    font-size: 0.35em;
+  }
+  .btn1 {
+    padding: 0.7em 0.8em;
+    font-size: 0.25em;
+    font-weight: 600;
+  }
+  .btn2 {
+    padding: 0.7em 0.8em;
+    font-size: 0.25em;
+    font-weight: 700;
+    margin-left: 2em;
+  }
+}
+/* Part - 2 css */

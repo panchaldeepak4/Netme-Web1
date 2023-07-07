@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Galeno Grotesque';
+    src: url('../fonts/galano-grotesque-alt-cufonfonts/GalanoGrotesqueRegular.otf') format('opentype'); /* Adjust the file extension and path if necessary */
+    /* Add additional font formats (e.g., woff, woff2) for better browser compatibility */
+  }
+  
+
+  @font-face {
+    font-family: 'Galeno Grotesque Bold';
+    src: url('../fonts/galano-grotesque-alt-cufonfonts/GalanoGrotesqueBold.otf') format('opentype');
+    font-weight: bold;
+  }

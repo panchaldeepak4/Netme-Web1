@@ -1,0 +1,152 @@
+@import url("https://fonts.google.com/specimen/Darker+Grotesque?preview.text=Boost%20your%20business%20with%20NETME!&preview.text_type=custom&query=Grotesque");
+
+/* 2nd part in the form  */
+.form_pic_con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* background: red; */
+  margin-top: 2%;
+}
+.form_pic {
+  height: 40vh;
+  width: 85%;
+  /* background: red; */
+  background-image: url("../../../public/Images/formpic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_pic p {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Darker Grotesque", sans-serif;
+}
+#fpt1 {
+  margin-top: 3.7rem;
+}
+#fpt2 {
+  margin-top: -0.5rem;
+}
+.form_pic section {
+  margin-top: -0.5rem;
+}
+
+/* form section started  */
+.main_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.sub_form {
+  width: 70%;
+  height: auto;
+  /* background: red; */
+}
+.location {
+  /* background: green; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+
+  justify-content: space-between;
+}
+.location_b,
+.legal_b {
+  margin-right: 10%;
+}
+
+.loc,
+.im {
+  /*  combination of css */
+  margin-top: 5%;
+  font-size: 1rem;
+  font-family: "Galeno Grotesque Bold", sans-serif;
+  color: #333333;
+}
+.legal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+
+  justify-content: space-between;
+}
+
+.job_pos {
+    width: 40%;
+    margin: 20px auto;
+
+}
+.label {
+  font-size: 0.75rem;
+  font-family: "Galeno Grotesque";
+  color: #333333;
+  margin-left: 5px;
+  margin-bottom: 100px !important;
+}
+.form_field {
+  /*  unique */
+  height: 50px;
+  width: 100%;
+  padding-left: 8px;
+  border-radius: 8px;
+  background: #f7fcff;
+  border: 2px solid transparent;
+}
+.form_field:hover {
+  border: 2px solid rgb(66, 135, 245);
+}
+.form_field1 {
+  margin-left: 13rem;
+  height: 2rem;
+  width: 40%;
+  border-radius: 8px;
+  background: #f2f2f2;
+  border: 2px solid transparent;
+}
+.form_field1:hover {
+  border: 2px solid rgb(66, 135, 245);
+}
+.upload_pic_con {
+  display: flex;
+  justify-content: center;
+}
+.upload_pic {
+  width: 80%;
+  height: 30vh;
+  border: 2px solid gray;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pic_txt1,
+#pic_txt2 {
+  /* margin-left: 10%; */
+  font-size: 0.75rem;
+  font-family: "Galeno Grotesque", sans-serif;
+  color: #929292;
+}
+#pic_txt2 {
+  margin-top: -1%;
+}
+/* button css */
+.form_btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+}
+.form_btn button {
+  background: #333333;
+  color: #ffffff;
+  padding: 0.85rem 3rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}

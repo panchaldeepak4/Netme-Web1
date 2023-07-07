@@ -1,0 +1,77 @@
+@import url('https://fonts.google.com/specimen/Darker+Grotesque?preview.text=Boost%20your%20business%20with%20NETME!&preview.text_type=custom&query=Grotesque');
+.main_text1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    font-size: 1.75em;
+    font-family:  'Darker Grotesque', sans-serif;
+}
+.box_row1{
+    display:flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.box{
+    height: 12em;
+    width:18em;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background: #F2F2F2;
+}
+.box_mid{
+    height: 12em;
+    width:18em;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    margin-left: 3.2em;
+    margin-right: 3.2em;
+    background: #F2F2F2;
+}
+.box_row2{
+    display:flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.box21{
+    height: 12em;
+    width:18em;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background: #F2F2F2;
+    margin-right: 1.5em;
+}
+.box22{
+    height: 12em;
+    width:18em;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background: #F2F2F2;
+    margin-left: 1.5em;
+}
+/* box contents  defined and customized */
+
+.box,.box_mid,.box21,.box22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_pic img{
+    height: 55%;
+    margin-top: 1em;
+}
+.box_heading{
+    font-size: 1em;
+    font-weight: 600;
+    
+    margin-top:-0.75em;
+}
+.box p ,.box_mid p,.box21 p,.box22 p{
+    font-size: 0.75em;
+    opacity: 80%;
+    color: #333333;
+}
+.box_text{
+    margin-top: -1em;
+    color: #333333;
+}

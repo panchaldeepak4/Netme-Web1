@@ -1,0 +1,40 @@
+.header{
+    height: 5em;
+    width: 100%;
+    /* background: red; */
+    /* background: #F2F2F2; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic{
+    height: 2em;
+    width: 2em;
+}
+.pic img{
+    height: 3em;   
+    /* height:105.38px; */
+    margin-left: 7rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a,.link{
+    text-decoration: none;
+    margin-left: 1.5em;
+    margin-right: 2em;
+    color: #333333;
+    font-family:'Galeno Grotesque Bold', sans-serif;
+    font-weight: 600;
+    /* background: red; */
+}
+.menu >button{
+    padding: 1em 1.2em;
+    margin-right: 8em;
+    font-size: 0.65em;
+    font-weight: 550;
+    background: #333333;
+    color:white;
+    border-radius: 5px;
+}
