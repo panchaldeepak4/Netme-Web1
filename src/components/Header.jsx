@@ -14,10 +14,10 @@ const Header = () => {
         </div>
 
         <div className='menu'>
-          <Link to='/' >The App</Link>
-          <Link to='/' >Blog</Link>
-          <Link to='/' >FAQ</Link>
-          <Link to='/' >About</Link>
+          <Link to='/' className='link'>The App</Link>
+          <Link to='/' className='link'>Blog</Link>
+          <Link to='/' className='link'>FAQ</Link>
+          <Link to='/' className='link'>About</Link>
           <Link to='/form' className='link' ><u>Become Partner</u></Link>
           <button onClick={() => navigate('/form')}>REGISTER NOW</button>
         </div>

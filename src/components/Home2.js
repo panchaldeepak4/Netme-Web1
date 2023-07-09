@@ -5,6 +5,7 @@ import '../assets/styles/home2.css'
 const Home2 = () => {
   return (
     <>
+    <div className='home2_main'>
     <div className='main_text1'>YOUR BENEFITS FROM NETME</div>
 
 <div className='box_row1'>
@@ -18,7 +19,7 @@ const Home2 = () => {
         <p className='box_text'>customers to your business.</p>
     </div>
 
-    <div className='box_mid'>
+    <div className='box'>
     <div className='box_pic'>
         <img src='Images/Group2.png'></img>
         </div>
@@ -42,7 +43,7 @@ const Home2 = () => {
 
 <div className='box_row2'>
 
-    <div className='box21'>
+    <div className='box'>
     <div className='box_pic'>
         <img src='Images/Group4.png'></img>
         </div>
@@ -52,7 +53,7 @@ const Home2 = () => {
         <p className='box_text'>personal connections.</p>
     </div>
 
-    <div className='box22'>
+    <div className='box'>
     <div className='box_pic'>
         <img src='Images/Group5.png'></img>
         </div>
@@ -60,6 +61,7 @@ const Home2 = () => {
         <p>Connect your business with local users</p>
         <p className='box_text'>interested in face-to-face meetings.</p>
     </div>
+</div>
 </div>
     </>
   )

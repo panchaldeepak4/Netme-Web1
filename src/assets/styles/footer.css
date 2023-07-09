@@ -1,6 +1,8 @@
 .footerContainer{
+  padding: 0px 120px;
+  box-sizing: border-box;
   text-align: center;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 
 }
 .footer_pic{
@@ -43,4 +45,9 @@
     font-family:'Darker Grotesque', sans-serif;
     font-weight: 700;
     color:#333333;
+}
+.copyright{
+    color:#333333;
+    font-size: 1rem;
+    font-family: 'Galeno Grotesque';
 }

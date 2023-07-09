@@ -1,0 +1,134 @@
+.choose_pkg{
+    display: flex;
+    justify-content: center;
+}
+.choose_pkg p{
+    font-size: 1.1rem;
+    font-family: 'Galeno Grotesque';
+    color : #929292;
+}
+.main_con{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #F7FCFF;  
+}
+.txt_pic{
+    height: 100%;
+    width: 40%;
+    /* background: gray; */
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.txt_pic img{
+    height: 10%;
+    /* width: 10%; */
+}
+.list{
+    margin-top: 2.5rem;
+}
+.list li{
+    margin-top: 1rem;
+    color:#929292;
+}
+.cards_div{
+    height: 100%;
+    width: 60%;
+    /* background: green; */
+    margin-top: 4rem;
+    /* margin-left: 4rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1rem;
+    /* align-items: center; */
+}
+.card1,.card2,.card3{
+    margin-top: 2rem;
+    height:90%;
+    width: 80%;
+    background: #F1F1F1;
+    border-radius: 18px;
+}
+.card1{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card2{
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card3{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reg_process{
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.reg_process p{
+    color:#333333;
+    font-family:'Galeno Grotesque';
+    font-weight: 600;
+}
+.payment_lane{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.5%;
+}
+.klarna{
+    height: 3rem;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.klarna img{
+    height: 60%;
+} 
+.amazon_pay{
+    height: 3rem;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.amazon_pay img{
+    height: 60%;
+}
+.paypal{
+    height: 3rem;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.paypal img{
+    height:60%;
+}
+.voucher{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.voucher p{
+    color:#333333;
+    font-size: 1rem;
+    font-family: 'Galeno Grotesque';
+    font-weight: 600;
+}
+

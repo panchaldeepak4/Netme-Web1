@@ -29,6 +29,7 @@ const Home = () => {
             <img src="Images/mobile1.png" id="img1" alt="missing"></img>
             <img src="Images/mobile2.png" id="img2" alt="missing"></img>
           </div>
+
         </div>
       </div>
 

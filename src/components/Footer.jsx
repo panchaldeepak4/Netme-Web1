@@ -26,7 +26,7 @@ const Footer = () => {
         <p>Privacy Policy</p>
         <p>Legal Disclosure</p>
     </div>
-    <p>Copyright © 2022. All Rights Reserved</p>
+    <p className='copyright'>Copyright © 2022. All Rights Reserved</p>
     
 
     </div>
