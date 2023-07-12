@@ -21,13 +21,17 @@
     /* gap:30px;   */
     gap: 1.95rem;
 }
-.link{
+.link,.link1{
     text-decoration: none;
     color: #333333;
     font-family:'Galeno Grotesque Bold', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     /* background: red; */
+}
+.link1{
+    border-bottom: 1.75px solid #333333;
+    padding-bottom: 0.2rem;
 }
 .menu >button{
     padding: 1rem 1.2rem;
@@ -38,4 +42,197 @@
     color:white;
     border:none;
     border-radius: 5px;
+}
+/* media-queries started  */
+@media screen and (max-width:1200px){
+    .pic{
+        width: 3.5rem;
+     }
+     
+     .menu{
+         gap: 1.85rem;
+     }
+     .link,.link1{
+         font-size: 1rem;
+         font-weight: 600;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.95rem 1rem;
+         /* font-size: 0.65em; */
+         font-size: 0.72rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:1080px){
+    .pic{
+        width: 3.4rem;
+     }
+     
+     .menu{
+         gap: 1.70rem;
+     }
+     .link,.link1{
+         font-size: 0.85rem;
+         font-weight: 600;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.75rem 0.8rem;
+         /* font-size: 0.65em; */
+         font-size: 0.65rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:912px){
+    .pic{
+        width: 3rem;
+     }
+     
+     .menu{
+         gap: 1.50rem;
+     }
+     .link,.link1{
+         font-size: 0.65rem;
+         font-weight: 600;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.65rem 0.7rem;
+         /* font-size: 0.65em; */
+         font-size: 0.60rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:820px){
+    .pic{
+        width: 2.5rem;
+     }
+     
+     .menu{
+         gap: 1.25rem;
+     }
+     .link,.link1{
+         font-size: 0.50rem;
+         font-weight: 600;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.55rem 0.5rem;
+         /* font-size: 0.65em; */
+         font-size: 0.5rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:768px){
+    .pic{
+        width: 2rem;
+     }
+     
+     .menu{
+         gap: 1.2rem;
+     }
+     .link,.link1{
+         font-size: 0.50rem;
+         font-weight: 600;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.40rem 0.4rem;
+         /* font-size: 0.65em; */
+         font-size: 0.4rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:650px){
+    .pic{
+        width: 1.5rem;
+     }
+     
+     .menu{
+         gap: 1rem;
+     }
+     .link,.link1{
+         font-size: 0.4rem;
+         font-weight: 500;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.30rem 0.3rem;
+         /* font-size: 0.65em; */
+         font-size: 0.38rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:540px){
+    .pic{
+        width: 1.2rem;
+     }
+     
+     .menu{
+         gap: 0.75rem;
+     }
+     .link,.link1{
+         font-size: 0.25rem;
+         font-weight: 500;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.25rem 0.25rem;
+         /* font-size: 0.65em; */
+         font-size: 0.3rem;
+         font-weight: 550;
+     }
+}
+@media screen and (max-width:412px){
+    .pic{
+        width: 1rem;
+     }
+     
+     .menu{
+         gap: 0.65rem;
+     }
+     .link,.link1{
+         font-size: 0.18rem;
+         font-weight: 500;
+        
+     }
+     .link1{
+         border-bottom: 1.75px solid #333333;
+         padding-bottom: 0.2rem;
+     }
+     .menu >button{
+         padding: 0.20rem 0.30rem;
+         /* font-size: 0.65em; */
+         font-size: 0.18rem;
+         font-weight: 550;
+     }
 }

@@ -3,13 +3,21 @@ import { Formik, Form, Field } from 'formik';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Upload1 from '../components/Upload1';
+import { useNavigate } from 'react-router-dom';
 //import './form.css'
-import '../assets/styles/form.css'
+import '../assets/styles/form1.css'
 
-
+const dropdownOptions = [
+    { value: 'option1', label: 'Option 1' },
+    { value: 'option2', label: 'Option 2' },
+    { value: 'option3', label: 'Option 3' },
+  ];
 
 
 const Form1 = () => {
+  
+  const navigate = useNavigate();
+
   return (
     <>
     
@@ -25,7 +33,14 @@ const Form1 = () => {
 
     <div className='main_form'>
         <div className='sub_form'>
-        <Formik >
+
+        <Formik  
+        initialValues={{
+      dropdownValue: ''
+    }}
+    onSubmit={values => {
+        console.log(values);
+      }}>
     <Form>
         <p className='loc'>Location</p>
         <div className='location'>
@@ -33,11 +48,18 @@ const Form1 = () => {
         <label className='label'>Location name<sup>*</sup></label><br></br>
         <Field name='name' type='text' className='form_field' placeholder='Enter Name'></Field><br></br>
         <label className='label'>Category<sup>*</sup></label><br></br>
-        <Field name='name' type='text' className='form_field' placeholder='Enter category'></Field><br></br>
+        <Field name='dropdownValue' as='select' className='form_field' placeholder='Enter category'>
+        <option value="">Select an option</option>
+        {dropdownOptions.map(option => (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          ))}
+            </Field><br></br>
         <label className='label'>Company tax no<sup>*</sup></label><br></br>
-        <Field name='name' type='text' className='form_field' placeholder='Enter category'></Field><br></br>
+        <Field name='name' type='text' className='form_field' placeholder='Enter company tax no'></Field><br></br>
         <label className='label'>Mobile number<sup>*</sup></label><br></br>
-        <Field name='name' type='text' className='form_field' placeholder='Enter category'></Field><br></br>
+        <Field name='name' type='text' className='form_field' placeholder='Enter mobile number'></Field><br></br>
         </div>
 
         <div className='location_b'>
@@ -81,14 +103,16 @@ const Form1 = () => {
         </div>
         </div> */}
         <p className='im'>Images</p>
+        <div className='upload'>
         <Upload1 />
+        </div>
 
 
 
         <p id='pic_txt1'>You must at least upload one image to continue the registration process*</p>
         <p id='pic_txt2'>The image format should be XY</p>
        <div className='form_btn'>
-        <button>NEXT</button>
+        <button onClick={() => navigate('/form2')}>NEXT</button>
         </div>
     </Form>
     </Formik>

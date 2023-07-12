@@ -58,3 +58,106 @@
     border-radius: 5px;
     border:none;
 }
+
+/* responsiveness work */
+/* @media screen and (max-width:1500px){
+.h4_container{
+        margin-top: -10rem;
+    }
+} */
+
+@media screen and (max-width:1200px){
+    .h4_container{
+            margin-top: -14rem;
+        }
+        .h4_main_txt{
+            font-size: 1.2rem;
+        }
+        .h4_btn{
+            padding: 0.75rem 1.5rem;
+           font-size: 0.5rem;
+
+        }
+    }
+
+    
+@media screen and (max-width:990px){
+    .h4_container{
+            margin-top: -16rem;
+        }
+        .h4_main_txt{
+            font-size: 1rem;
+        }
+        .h4_sub_txt1,.h4_sub_txt2,.h4_sub_txt3,.h4_sub_txt4{
+            font-size: 0.95rem;
+        }
+        .h4_btn{
+            padding: 0.73rem 1.4rem;
+           font-size: 0.45rem;
+
+        }
+    }
+
+    @media screen and (max-width:820px){
+        .h4_container{
+                margin-top: -18rem;
+            }
+            .h4_main_txt{
+                font-size: 0.85rem;
+            }
+            .h4_sub_txt1,.h4_sub_txt2,.h4_sub_txt3,.h4_sub_txt4{
+                font-size: 0.75rem;
+            }
+            .h4_btn{
+                padding: 0.65rem 1.1rem;
+               font-size: 0.30rem;
+            }
+        }
+
+        @media screen and (max-width:768px){
+            .h4_container{
+                    margin-top: -20rem;
+                }
+                .h4_main_txt{
+                    font-size: 0.75rem;
+                }
+                .h4_sub_txt1,.h4_sub_txt2,.h4_sub_txt3,.h4_sub_txt4{
+                    font-size: 0.65rem;
+                }
+                .h4_btn{
+                    padding: 0.58rem 1rem;
+                   font-size: 0.30rem;
+                }
+            }
+
+            @media screen and (max-width:590px){
+                .h4_container{
+                        margin-top: -20rem;
+                    }
+                    .h4_main_txt{
+                        font-size: 0.50rem;
+                    }
+                    .h4_sub_txt1,.h4_sub_txt2,.h4_sub_txt3,.h4_sub_txt4{
+                        font-size: 0.45rem;
+                    }
+                    .h4_btn{
+                        padding: 0.45rem 0.75rem;
+                       font-size: 0.20rem;
+                    }
+                }
+
+                @media screen and (max-width:490px){
+                    .h4_container{
+                            margin-top: -22rem;
+                        }
+                        .h4_main_txt{
+                            font-size: 0.38rem;
+                        }
+                        .h4_sub_txt1,.h4_sub_txt2,.h4_sub_txt3,.h4_sub_txt4{
+                            font-size: 0.35rem;
+                        }
+                        .h4_btn{
+                            padding: 0.35rem 0.65rem;
+                           font-size: 0.20rem;
+                        }
+                    }

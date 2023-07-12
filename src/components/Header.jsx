@@ -18,7 +18,7 @@ const Header = () => {
           <Link to='/' className='link'>Blog</Link>
           <Link to='/' className='link'>FAQ</Link>
           <Link to='/' className='link'>About</Link>
-          <Link to='/form' className='link' ><u>Become Partner</u></Link>
+          <Link to='/form' className='link1' >Become Partner</Link>
           <button onClick={() => navigate('/form')}>REGISTER NOW</button>
         </div>
       </div>

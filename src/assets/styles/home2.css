@@ -63,3 +63,220 @@
     margin-top: -1em;
     color: #333333;
 }
+
+/* responsiveness work */
+/* @media screen and (max-width:1500px){
+    .main_text1{
+        margin-top: -17rem;
+    }
+} */
+
+@media screen and (max-width:1200px){
+   
+    .main_text1{
+        margin-top: -22rem;
+        font-size: 1.65rem;
+    }
+    .box_row1{
+       
+        margin-top: 3rem;
+    }
+    .box{
+        height: 12rem;
+        width:16rem;
+    }
+    
+    .box_row2{
+        margin-top: 2rem;
+    }
+    
+    .box_pic img{
+        height: 55%;
+        margin-top: 1rem;
+    }
+    .box_heading{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top:-0.75em;
+    }
+    .box p{
+        font-size: 0.75em;
+    }
+    .box_text{
+        margin-top: -1rem;
+        
+    }
+}
+@media screen and (max-width:1024px){
+   
+    .main_text1{
+        margin-top: -24rem;
+        font-size: 1.65rem;
+    }
+    .box_row1{
+       
+        margin-top: 3rem;
+    }
+    .box{
+        height: 12rem;
+        width:13rem;
+    }
+    
+    .box_row2{
+        margin-top: 1.5rem;
+    }
+    
+    .box_pic img{
+        height: 45%;
+        margin-top: 1rem;
+    }
+    .box_heading{
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-top:-0.75em;
+    }
+    .box p{
+        font-size: 0.68em;
+    }
+    .box_text{
+        /* margin-top: -1rem; */
+        
+    }
+}
+
+@media screen and (max-width:912px){
+   
+    .main_text1{
+        margin-top: -30rem;
+        font-size: 1.60rem;
+    }
+    .box_row1{
+       
+        margin-top: 2rem;
+    }
+    .box{
+        height: 10rem;
+        width:11rem;
+    }
+    
+    .box_row2{
+        margin-top: 1.4rem;
+    }
+    
+    .box_pic img{
+        height: 40%;
+        margin-top: 1rem;
+    }
+    .box_heading{
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-top:-0.85rem;
+    }
+    .box p{
+        font-size: 0.60em;
+    }
+    .box_text{
+        /* margin-top: -1rem; */
+        
+    }
+}
+@media screen and (max-width:820px){
+   
+    .main_text1{
+        margin-top: -32rem;
+        font-size: 1.60rem;
+    }
+    .box_row1{
+        margin-top: 1.85rem;
+    }
+    .box{
+        height: 9rem;
+        width:9rem;
+    }
+    
+    .box_row2{
+        margin-top: 1.4rem;
+    }
+    .box_pic img{
+        height: 35%;
+        margin-top: 1rem;
+    }
+    .box_heading{
+        font-size: 0.70rem;
+        font-weight: 600;
+        margin-top:-1rem;
+    }
+    .box p{
+        font-size: 0.38rem;
+    }
+    .box_text{
+        margin-top: 0.002rem;
+    }
+}
+@media screen and (max-width:670px){
+   
+    .main_text1{
+        margin-top: -36rem;
+        font-size: 1.35rem;
+    }
+    .box_row1{
+        margin-top: 1.70rem;
+    }
+    .box{
+        height: 9rem;
+        width:7rem;
+    }
+    
+    .box_row2{
+        margin-top: 1.4rem;
+    }
+    .box_pic img{
+        height: 30%;
+        margin-top: 1rem;
+    }
+    .box_heading{
+        font-size: 0.55rem;
+        font-weight: 600;
+        margin-top:-1rem;
+    }
+    .box p{
+        font-size: 0.30rem;
+    }
+    .box_text{
+        margin-top: 0.002rem;
+    }
+}
+
+@media screen and (max-width:540px){
+   
+    .main_text1{
+        margin-top: -42rem;
+        font-size: 1.1rem;
+    }
+    .box_row1{
+        margin-top: 1.50rem;
+    }
+    .box{
+        height: 8rem;
+        width:4.5rem;
+    }
+    
+    .box_row2{
+        margin-top: 1.3rem;
+    }
+    .box_pic img{
+        height: 25%;
+        margin-top: 1rem;
+    }
+    .box_heading{
+        font-size: 0.45rem;
+        font-weight: 600;
+        margin-top:-1.7rem;
+    }
+    .box p{
+        font-size: 0.20rem;
+    }
+    .box_text{
+        margin-top: 0.002rem;
+    }
+}

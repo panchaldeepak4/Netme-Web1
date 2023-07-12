@@ -1,3 +1,25 @@
+.form2_pic {
+    height: 40vh;
+    width : 100%;
+    background: url("../../../public/Images/form2pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0 0; */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .form2_pic p {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+ .form2_main{                 /* to provide padding on both sides  */
+  padding : 2rem 7.5rem;
+  box-sizing: border-box;
+}
 .choose_pkg{
     display: flex;
     justify-content: center;
@@ -8,11 +30,12 @@
     color : #929292;
 }
 .main_con{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     background: #F7FCFF;  
+    
 }
 .txt_pic{
     height: 100%;
@@ -26,48 +49,101 @@
     /* width: 10%; */
 }
 .list{
-    margin-top: 2.5rem;
-}
-.list li{
-    margin-top: 1rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     color:#929292;
 }
-.cards_div{
-    height: 100%;
-    width: 60%;
+/* .display{
+    display: flex;
+} */
+
+
+.maincards_div{
+    height: 90%;
+    width: 70%;
+    background: #ffffff;
     /* background: green; */
     margin-top: 4rem;
-    /* margin-left: 4rem; */
+    margin-right: 2rem;
+}
+.cards_div{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:1rem;
-    /* align-items: center; */
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap:0px;
+    /* background: red; */
+    margin-left: 2rem;
 }
 .card1,.card2,.card3{
     margin-top: 2rem;
-    height:90%;
+    height:83vh;
     width: 80%;
     background: #F1F1F1;
     border-radius: 18px;
 }
+.card1 p,.card2 p,.card3 p{
+    font-size: 1rem;
+    font-family: 'Galeno Grotesque';
+    color: #333333;
+    font-weight: 500;
+}
 .card1{
-    margin-left: 15%;
+    /* margin-left: 15%; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
 }
 .card2{
-    margin-left: 10%;
-    margin-right: 5%;
+    /* margin-left: 10%; */
+    /* margin-right: 5%; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
 }
 .card3{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
+}
+#ofnn,#tznn,#fnnn{
+    width: 60%;
+}
+.tick{
+    width: 15%;
+}
+.dash{
+    width: 10%;
+}
+.one_x{
+    font-size: 0.85rem;
+    color: #333333;
+    line-height: 0.1rem;
+    
+}
+.bttn,.bttn2,.bttn3{
+    padding: 0.5rem 3rem;
+    border-radius: 8px;
+    border: none;
+    background: #8DC3DF;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-family: 'Galeno Grotesque Bold';
+}
+.bttn{
+    margin-top: 1rem;
+}
+.bttn2{
+    background: #518099;
+    /* margin-top: 0.4rem; */
+}
+.bttn3{
+    background: #333333;
+    /* margin-top: 0.5rem; */
 }
 .reg_process{
     display:flex;
@@ -82,44 +158,30 @@
 .payment_lane{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 3.5%;
+    margin-top: 2.5rem;
 }
-.klarna{
+.klarna,.amazon_pay,.paypal{
     height: 3rem;
     width: 20%;
-    border: 1px solid black;
+    border: 1px solid #BDBDBD;
     display: flex;
+    
     justify-content: space-evenly;
     align-items: center;
     border-radius: 5px;
 }
-.klarna img{
-    height: 60%;
-} 
-.amazon_pay{
-    height: 3rem;
-    width: 20%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 5px;
+.round{
+    width: 8%;
 }
-.amazon_pay img{
-    height: 60%;
+.klarna p,.amazon_pay p,.paypal p{
+    font-size: 0.85rem;
+    font-family: 'Galeno Grotesque';
+    color: #333333;
 }
-.paypal{
-    height: 3rem;
-    width: 20%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 5px;
+.icon_pic{
+    width: 30%;
 }
-.paypal img{
-    height:60%;
-}
+
 .voucher{
     display: flex;
     justify-content: center;
@@ -132,3 +194,45 @@
     font-weight: 600;
 }
 
+.enter_voucher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter_voucher p{
+    /* width: 30%; */
+    background: #F7FCFF;
+    /* background: #333333; */
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 13rem;
+    color: #BBBBBB;
+}
+
+
+/* <div className='continue'>
+<button>CONTINUE</button>
+</div> */
+
+.continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continue button{
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 3rem;
+    color: #ffffff;
+    border: none;
+    font-size: 0.75rem;
+    font-family: 'Galeno Grotesque';
+    border-radius: 5px;
+    font-weight: 600;
+}
+@media screen and (max-width:1500px){
+    html{
+      font-size: 18px;
+    }
+}
