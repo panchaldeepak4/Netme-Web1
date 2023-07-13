@@ -89,7 +89,7 @@
   width: 100%;
   aspect-ratio: 10 / 19;
 }
-@media screen and (max-width:1500px){
+/* @media screen and (max-width:1500px){
   html{
     font-size: 18px;
   }
@@ -97,10 +97,10 @@
     width: 60%;
     height: 65%;
    }
+} */
 
-}
 /* my screen */
-@media screen and (max-width:1370px){
+/* @media screen and (max-width:1370px){
   html{
     font-size: 16px;
   }
@@ -108,8 +108,7 @@
     width: 60%;
     height: 100%;
    }
-
-}
+} */
 
 @media screen and (max-width:1200px){
     /* html{
