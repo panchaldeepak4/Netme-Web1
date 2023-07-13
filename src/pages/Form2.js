@@ -118,7 +118,11 @@ const Form2 = () => {
     </div>
 
     </div>
+
+    <div className='fotr_magn'>
     <Footer />
+    </div>
+
     </>
   )
 }

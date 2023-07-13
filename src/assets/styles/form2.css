@@ -1,16 +1,18 @@
+/* form_pic_container is taking its css from form1.css */
+
 .form2_pic {
-    height: 40vh;
+    /* height: 40vh; */
     width : 100%;
     background: url("../../../public/Images/form2pic.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    /* background-position: 0 0; */
+    background-position: 50% 0;   /*to move background-image on x & y-axis */
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
+
   .form2_pic p {
     font-size: 2rem;
     font-weight: 800;
@@ -45,8 +47,7 @@
     margin-top: 4rem;
 }
 .txt_pic img{
-    height: 10%;
-    /* width: 10%; */
+    width: 10%;
 }
 .list{
     margin-top: 6rem;
@@ -77,7 +78,7 @@
 }
 .card1,.card2,.card3{
     margin-top: 2rem;
-    height:83vh;
+    /* height:83vh; */
     width: 80%;
     background: #F1F1F1;
     border-radius: 18px;
@@ -148,7 +149,8 @@
 .reg_process{
     display:flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 4rem;
+    /* margin-top: 5%; */
 }
 .reg_process p{
     color:#333333;
@@ -234,5 +236,81 @@
 @media screen and (max-width:1500px){
     html{
       font-size: 18px;
+    }
+    /* .reg_process{
+        margin-top: -18rem;
+    } */
+}
+
+@media screen and (max-width:1280px){
+    html{
+      font-size: 17px;
+    }
+    .reg_process{
+        margin-top: -18rem;
+    }
+    .fotr_magn{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:1024px){
+    html{
+      font-size: 15px;
+    }
+    .reg_process{
+        margin-top: -28rem;
+    }
+}
+@media screen and (max-width:912px){
+    html{
+      font-size: 14px;
+    }
+    .reg_process{
+        margin-top: -34rem;
+    }
+}
+@media screen and (max-width:820px){
+    html{
+      font-size: 13px;
+    }
+    .reg_process{
+        margin-top: -38rem;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+      font-size: 12px;
+    }
+    .reg_process{
+        margin-top: -44rem;
+    }
+    .fotr_magn{
+        margin-top: -4rem;
+    }
+}
+@media screen and (max-width:540px){
+    html{
+      font-size: 10px;
+    }
+    .reg_process{
+        margin-top: -60rem;
+    }
+    
+}
+@media screen and (max-width:412px){
+    html{
+      font-size: 8px;
+    }
+    .reg_process{
+        margin-top: -90rem;
+    }
+    
+}
+@media screen and (max-width:360px){
+    html{
+      font-size: 7px;
+    }
+    .reg_process{
+        margin-top: -110rem;
     }
 }

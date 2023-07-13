@@ -119,8 +119,9 @@ const Form1 = () => {
     </div>
     </div>
 
-
+   <div className='ftr_mgn'> 
     <Footer />
+    </div>
     </>
   )
 }
