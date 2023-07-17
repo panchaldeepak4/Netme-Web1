@@ -1,0 +1,121 @@
+/* form_pic_container is taking its css from form1.css */
+
+.form4_pic {
+    /* height: 50vh; */
+    width : 100%;
+    background: url("../../../public/Images/form4pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;   /*to move background-image on x & y-axis */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transform: scale(0.8);  */
+    border-radius: 30px;
+  }
+
+  .ex{
+    /* display: none; */              /* trick to disappear the text */
+    color: black;
+    opacity: 0;
+  }
+
+  .form4_pic img{
+    width: 8%;
+    padding-top: 1rem;
+  }
+  .f4_maint{
+    font-size: 2rem;
+    font-family: 'Galeno Grotesque Bold';
+    color:#ffffff;
+    line-height: 1rem;
+    /* background: red; */
+  }
+  .f4_subt1,.f4_subt2{
+    font-size: 0.95rem;
+    font-family:'Galeno Grotesque';
+    color: #D8D8D8;
+    margin-top: -0.30rem;
+  }
+  .f4_ftrmgn{
+    margin-top: 5rem;
+  }
+
+  /* media queries  */
+
+  @media screen and (max-width:1280px){
+    html{
+      font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    html{
+      font-size: 17px;
+    }
+    .f4_ftrmgn{
+        margin-top: 8rem;
+      }
+}
+
+@media screen and (max-width:912px){
+    html{
+      font-size: 15px;
+    }
+    .f4_ftrmgn{
+        margin-top: 13rem;
+      }
+}
+
+@media screen and (max-width:820px){
+    html{
+      font-size: 13px;
+    }
+    .f4_ftrmgn{
+        margin-top: 17rem;
+      }
+}
+
+@media screen and (max-width:768px){
+    html{
+      font-size: 12.5px;
+    }
+    .f4_ftrmgn{
+        margin-top: 19rem;
+      }
+}
+
+@media screen and (max-width:650px){
+    html{
+      font-size: 10px;
+    }
+    .f4_ftrmgn{
+        margin-top: 20rem;
+      }
+}
+
+@media screen and (max-width:540px){
+    html{
+      font-size: 8px;
+    }
+    .f4_ftrmgn{
+        margin-top: 22rem;
+      }
+}
+@media screen and (max-width:418px){
+    html{
+      font-size: 6px;
+    }
+    .f4_ftrmgn{
+        margin-top: 22rem;
+      }
+}
+@media screen and (max-width:360px){
+    html{
+      font-size: 5px;
+    }
+    .f4_ftrmgn{
+        margin-top: 23rem;
+      }
+}

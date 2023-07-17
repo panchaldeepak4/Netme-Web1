@@ -119,7 +119,7 @@ const Form2 = () => {
 
     </div>
 
-    <div className='fotr_magn'>
+    <div className='f2_ftrmgn'>
     <Footer />
     </div>
 

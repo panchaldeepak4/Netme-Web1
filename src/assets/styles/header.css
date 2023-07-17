@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 .pic{
-   width: 4rem;
+   /* width: 4rem; */
+   width: 5%;
 }
 .pic img{
     /* height: 3em;    */
@@ -164,7 +165,7 @@
          font-weight: 550;
      }
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:600px){
     .pic{
         width: 1.5rem;
      }
@@ -173,7 +174,7 @@
          gap: 1rem;
      }
      .link,.link1{
-         font-size: 0.4rem;
+         font-size: 1.1rem;
          font-weight: 500;
         
      }

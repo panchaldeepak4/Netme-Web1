@@ -37,7 +37,10 @@ const Home = () => {
       <Home2 />
       <Home3 />
       <Home4 />
+      <div className='home_ftrmgn'> 
       <Footer />
+      </div>
+     
     </>
   );
 };

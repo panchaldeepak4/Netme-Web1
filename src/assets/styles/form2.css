@@ -4,13 +4,14 @@
     /* height: 40vh; */
     width : 100%;
     background: url("../../../public/Images/form2pic.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 0;   /*to move background-image on x & y-axis */
+    background-position: 0 0;   /*to move background-image on x & y-axis */
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 30px;
   }
 
   .form2_pic p {
@@ -249,7 +250,7 @@
     .reg_process{
         margin-top: -18rem;
     }
-    .fotr_magn{
+    .f2_ftrmgn{
         margin-top: 2rem;
     }
 }
@@ -258,7 +259,10 @@
       font-size: 15px;
     }
     .reg_process{
-        margin-top: -28rem;
+        margin-top: -10rem;
+    }
+    .f2_ftrmgn{
+        margin-top: -2rem;
     }
 }
 @media screen and (max-width:912px){
@@ -266,7 +270,10 @@
       font-size: 14px;
     }
     .reg_process{
-        margin-top: -34rem;
+        margin-top: -14rem;
+    }
+    .f2_ftrmgn{
+        margin-top: -2rem;
     }
 }
 @media screen and (max-width:820px){
@@ -274,7 +281,10 @@
       font-size: 13px;
     }
     .reg_process{
-        margin-top: -38rem;
+        margin-top: -20rem;
+    }
+    .f2_ftrmgn{
+        margin-top: -2rem;
     }
 }
 @media screen and (max-width:768px){
@@ -282,10 +292,10 @@
       font-size: 12px;
     }
     .reg_process{
-        margin-top: -44rem;
+        margin-top: -26rem;
     }
-    .fotr_magn{
-        margin-top: -4rem;
+    .f2_ftrmgn{
+        margin-top: -2rem;
     }
 }
 @media screen and (max-width:540px){
@@ -294,6 +304,9 @@
     }
     .reg_process{
         margin-top: -60rem;
+    }
+    .f2_ftrmgn{
+        margin-top: -36rem;
     }
     
 }
@@ -304,6 +317,9 @@
     .reg_process{
         margin-top: -90rem;
     }
+    .f2_ftrmgn{
+        margin-top: -60rem;
+    }
     
 }
 @media screen and (max-width:360px){
@@ -312,5 +328,8 @@
     }
     .reg_process{
         margin-top: -110rem;
+    }
+    .f2_ftrmgn{
+        margin-top: -80rem;
     }
 }
